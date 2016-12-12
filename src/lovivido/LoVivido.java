@@ -12,7 +12,7 @@ public static void main(String[] args) {
 String nombre;//cambio nombres de las variables para que se pueda entender mejor
 String edad;
 
-int meses;
+//int meses;
 int dias;
 int horas;
 int a;
@@ -22,11 +22,11 @@ edad = JOptionPane.showInputDialog ("Escriba su edad: ");
  
 a= Integer.parseInt (edad);
  
-meses = (a*12);
+//meses = (a*12);
 dias = (a*365);
 horas = (dias*24);
  
- JOptionPane.showMessageDialog(null,  "Meses: "  +meses,"Numero de meses vividos de " +nombre,JOptionPane.INFORMATION_MESSAGE);
+ //JOptionPane.showMessageDialog(null,  "Meses: "  +meses,"Numero de meses vividos de " +nombre,JOptionPane.INFORMATION_MESSAGE);
 
 
  JOptionPane.showMessageDialog(null, "Días: " +dias,"Numero de días vividos de "+nombre,JOptionPane.INFORMATION_MESSAGE);
